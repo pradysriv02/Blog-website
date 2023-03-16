@@ -1,0 +1,8 @@
+<%- include('partials/header'); -%>
+    <h1>Home</h1>
+    <p><%= startingContent %></p>
+    <%publishArray.forEach(function(publishArray){%>
+        <h1><%= publishArray.title %></h1>
+        <p><%= publishArray.bodyContent.substring(0,100)+"..."%>+<a href="/posts/<%=publishArray.title %>">Read More</a></p>
+    <%})%>
+    <%- include('partials/footer'); -%>
