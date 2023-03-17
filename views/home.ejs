@@ -5,4 +5,5 @@
         <h1><%= publishArray.title %></h1>
         <p><%= publishArray.bodyContent.substring(0,100)+"..."%>+<a href="/posts/<%=publishArray.title %>">Read More</a></p>
     <%})%>
+    <button class="btn btn-primary c-btn"><a href="/compose">Compose</a></button>
     <%- include('partials/footer'); -%>

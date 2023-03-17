@@ -40,3 +40,7 @@
 .btn{
     margin-top: 2rem;
 }
+.c-btn a{
+    text-decoration: none;
+    color: #fff;
+}
